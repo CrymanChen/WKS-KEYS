@@ -1,0 +1,8 @@
+xmltodict
+requests
+google
+google-api-python-client
+protobuf==3.19.5
+pycryptodome
+pycryptodomex
+pyperclip
