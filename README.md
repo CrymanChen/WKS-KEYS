@@ -8,7 +8,9 @@ Project Name: WKS-KEYS
 
 ### 项目介绍
 这是一个经过修改的项目, 用于获取L3等级下, Widevine的密钥  
-A repo modified for bypassing Widevine L3 DRM and obtaining keys.
+A repo modified for bypassing Widevine L3 DRM and obtaining keys.  
+在这里我会不定期上传一些我写好的程序(下称脚本)，以方便新手直接使用。每个脚本都对应不同的网站。请注意，所有经过我编写的脚本均不得用于商业用途，且上传脚本并不是我的义务。  
+I will upload some programs that I have edited from time to time (hereinafter referred to as scripts) for new-beginners' convenience. Each script works for getting keys from different websites. Please note that, no commercial usage to all my scripts, and it's not an obligation to update them so DO NOT rush please.
 
 ### 版权信息
 本项目原发行于[WKS-KEY](https://github.com/weapon121/WKS-KEY), 其中[WKS-KEY](https://github.com/weapon121/WKS-KEY)又来自于[WKS-KEY](https://github.com/WKS-uwu/WKS-KEY), 在此对两位作者[WKS-uwu](https://github.com/WKS-uwu)和[weapon121](https://github.com/weapon121)表示感谢。同时若[此修改版](https://github.com/CrymanChen/WKS-KEYS)不慎触犯了您的利益, 请第一时间与我联系。本项目无任何商业用途, 仅为个人学习, 方便个人使用。  
