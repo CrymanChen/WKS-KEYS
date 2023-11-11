@@ -6,10 +6,11 @@ l3mubi.py
 1. 输入base64编码或十六进制的Key ID即可自动转化为PSSH.  
 2. 优化标头部分，仅需要关键参数。  
 3. 增加帮助部分，加入`-h`或`--help`即可阅读更详细的说明。  
-1. Either Key ID in base64 or in hex will convert to PSSH automatically.  
-2. Only critical params are needed in headers (rather than full headers).  
-3. Adding `-h` or `--help` will enable help text which is more datailed and beneficial to using this script.  
-非常感谢[Spectrumhsm](https://forum.videohelp.com/members/307425-Spectrumhsm)的宝贵意见！
+(a. Either Key ID in base64 or in hex will convert to PSSH automatically.  
+ b. Only critical params are needed in headers (rather than full headers).  
+ c. Adding `-h` or `--help` will enable help text which is more datailed and beneficial to using this script.)
+
+非常感谢 [Spectrumhsm](https://forum.videohelp.com/members/307425-Spectrumhsm) 的宝贵意见！
 Really appreciate the great idea from [Spectrumhsm](https://forum.videohelp.com/members/307425-Spectrumhsm)!  
 示例截图 Screenshot:  
 ![20231112001310](https://github.com/CrymanChen/WKS-KEYS/assets/106590233/65d22284-fc54-4fcc-b0bf-1ffd3d48437b)
