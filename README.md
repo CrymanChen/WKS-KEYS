@@ -1,18 +1,31 @@
 # WKS-KEYS
 
-## Abstract
+## 更新 Update
+### 2023.11.12
+l3mubi.py 
+1. 输入base64编码或十六进制的Key ID即可自动转化为PSSH.  
+2. 优化标头部分，仅需要关键参数。  
+3. 增加帮助部分，加入`-h`或`--help`即可阅读更详细的说明。  
+1. Either Key ID in base64 or in hex will convert to PSSH automatically.  
+2. Only critical params are needed in headers (rather than full headers).  
+3. Adding `-h` or `--help` will enable help text which is more datailed and beneficial to using this script.  
+非常感谢[Spectrumhsm](https://forum.videohelp.com/members/307425-Spectrumhsm)的宝贵意见！
+Really appreciate the great idea from [Spectrumhsm](https://forum.videohelp.com/members/307425-Spectrumhsm)!  
+示例截图 Screenshot:  
+![20231112001310](https://github.com/CrymanChen/WKS-KEYS/assets/106590233/65d22284-fc54-4fcc-b0bf-1ffd3d48437b)
 
-### 项目名称
-WKS-KEYS  
-Project Name: WKS-KEYS  
+## 简介 Abstract
 
-### 项目介绍
+### 项目名称 Project Name
+WKS-KEYS
+
+### 项目介绍 Introduction
 这是一个经过修改的项目, 用于获取L3等级下, Widevine的密钥  
 A repo modified for bypassing Widevine L3 DRM and obtaining keys.  
 在这里我会不定期上传一些我写好的程序(下称脚本)，以方便新手直接使用。每个脚本都对应不同的网站。请注意，所有经过我编写的脚本均不得用于商业用途，且上传脚本并不是我的义务。  
 I will upload some programs that I have edited from time to time (hereinafter referred to as scripts) for new-beginners' convenience. Each script works for getting keys from different websites. Please note that, no commercial usage to all my scripts, and it's not an obligation to update them so DO NOT rush please.
 
-### 版权信息
+### 版权信息 Copyright Information
 本项目原发行于[WKS-KEY](https://github.com/weapon121/WKS-KEY), 其中[WKS-KEY](https://github.com/weapon121/WKS-KEY)又来自于[WKS-KEY](https://github.com/WKS-uwu/WKS-KEY), 在此对两位作者[WKS-uwu](https://github.com/WKS-uwu)和[weapon121](https://github.com/weapon121)表示感谢。同时若[此修改版](https://github.com/CrymanChen/WKS-KEYS)不慎触犯了您的利益, 请第一时间与我联系。本项目无任何商业用途, 仅为个人学习, 方便个人使用。  
 Copyright Information: This project came from [WKS-KEY](https://github.com/weapon121/WKS-KEY), and [WKS-KEY](https://github.com/weapon121/WKS-KEY) was forked from [WKS-KEY](https://github.com/WKS-uwu/WKS-KEY). I'd like to express my sincerest thanks to both developers [WKS-uwu](https://github.com/WKS-uwu) and [weapon121](https://github.com/weapon121). In case [this modified version](https://github.com/CrymanChen/WKS-KEYS) unintentionally infringes upon your interests, please contact me as soon as possible. This project is purely for personal learning and convenience, without any commercial purpose. This also means that if the modifications made to your project are unintentionally harmful, please contact me immediately.
 
