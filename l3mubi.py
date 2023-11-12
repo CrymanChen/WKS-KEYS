@@ -11,7 +11,6 @@ import os
 import sys
 import base64, requests, sys, xmltodict
 import binascii
-import headers
 import json
 # 增加了一个第三方库pyperclip, 目的是将key(有时是多个key)快速复制到剪贴板中
 import pyperclip
@@ -28,7 +27,7 @@ Instructions:
     -Key ID: (Can be described as) Public key. [Required]
     Format accepted: 1) 08053232-9530-448C-8728-BABDB21EE327 (Dashes and Capital not required)
                      2) CAUyMpUwRIyHKLq9sh7jJw==
-    -License URL: No need to change unless you know how to edit Line 69.
+    -License URL: No need to change unless you know how to edit Line 68.
     -dt-custom-data: A param in the headers of the license request. [Required]
 You may need: 
     -Finding Key ID by installing Tampermonkey and EME logger (https://greasyfork.org/en/scripts/373903-eme-logger)
