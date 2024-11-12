@@ -17,7 +17,7 @@ c. Automatically obtain the version number of the Chrome browser (this version n
 提示：原则上来说，你只需要下载该文件夹到WKS-KEYS文件夹内，安装`requirements.txt`内的第三方库，运行`main.py`，输入视频的URL地址即可。  
 **Note**: In principle, you only need to download this folder into the WKS-KEYS folder, install the third-party libraries listed in `requirements.txt`, run `main.py`, and input the video URL.  
 
-再注：该程序为约一年前的作品，因为缺少维护，代码略显丑陋，请大家见谅。
+再注：该程序为约一年前的作品，因为缺少维护，代码略显丑陋，请大家见谅。  
 **P.S.**: It's been around a year since I wrote this script, and it may look pretty ugly due to insufficient maintenance, about which I'm sorry.
 
 ### 2023.11.12
