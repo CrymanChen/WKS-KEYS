@@ -1,11 +1,28 @@
 # WKS-KEYS
 
 ## 更新 Update
+### 2024.11.12
+l3_NowE 文件夹  (l3_NowE Folder)  
+
+简介：该文件夹是一个用于下载[NowE](https://www.nowe.com/ "NowE")当中受Widevine保护的视频资源，且该项目为全自动实现，只需输入视频的URL即可自动获取所有所需的数据，并自动通过[N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE "N_m3u8DL-RE")和[mp4box](https://github.com/gpac/gpac/wiki/mp4box "mp4box")来下载、解密和对视频进行混流。  
+Introduction: This folder is designed for downloading Widevine-protected video resources from [NowE](https://www.nowe.com/ "NowE"). The project is fully automated; simply input the video URL to automatically retrieve all the necessary data and use [N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE "N_m3u8DL-RE") and [mp4box](https://github.com/gpac/gpac/wiki/mp4box "mp4box") to download, decrypt, and mux the video.  
+1. 通过`selenium`实现自动登录和登录token的获取。  
+2. 通过`zhconv`将例如视频标题自动转换成简体中文（当然你也可以自己修改）  
+3. 自动获取Chrome浏览器的版本号（该版本号至关重要）  
+
+(a. Achieve automatic login and retrieval of login tokens using `selenium`.  
+b. Automatically convert text, such as video titles, to Simplified Chinese using `zhconv` (of course, you can modify this as needed).  
+c. Automatically obtain the version number of the Chrome browser (this version number is crucial).)  
+
+提示：原则上来说，你只需要下载该文件夹到WKS-KEYS文件夹内，安装`requirements.txt`内的第三方库，运行`main.py`，输入视频的URL地址即可。  
+**Note**: In principle, you only need to download this folder into the WKS-KEYS folder, install the third-party libraries listed in `requirements.txt`, run `main.py`, and input the video URL.
+
 ### 2023.11.12
 l3mubi.py 
 1. 输入base64编码或十六进制的Key ID即可自动转化为PSSH.  
 2. 优化标头部分，仅需要关键参数。  
 3. 增加帮助部分，加入`-h`或`--help`即可阅读更详细的说明。  
+
 (a. Either Key ID in base64 or in hex will convert to PSSH automatically.  
  b. Only critical params are needed in headers (rather than full headers).  
  c. Adding `-h` or `--help` will enable help text which is more datailed and beneficial to using this script.)
